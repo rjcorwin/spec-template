@@ -104,8 +104,8 @@ Feel free to customize these templates to fit your needs:
 
 ## 🤝 Getting Help
 
-### With Coding Agents
-If you're working with a coding agent, they should have access to the `.agent` file in the original template repository, which provides guidance on how they can help you effectively.
+### With Cursor AI
+If you're working with Cursor, the template includes rules that provide intelligent assistance for specification writing and technical documentation.
 
 ### Template Usage
 - Start with the TODO to understand the process

@@ -1,0 +1,290 @@
+---
+description: Spec Process
+globs: 
+alwaysApply: always
+---
+
+# Spec Template Agent Guide
+
+## 🎯 Purpose
+
+This file provides guidance to coding agents on how to effectively assist users who are working with this spec template. The goal is to ensure consistent, high-quality support throughout the specification and development process.
+
+## 📋 Understanding the Template Structure
+
+### Core Documents
+- **README.md**: Main index and navigation hub
+- **PRD.md**: Product Requirements Document - defines WHAT to build
+- **TODO.md**: Project tracking and phase management
+- **INVESTIGATION.md**: Research, analysis, and pre-work documentation
+- **DESIGN.md**: System design and architecture - defines HOW to build
+- **adr/**: Architecture Decision Records for key technical decisions to be made during design phase, but also possibly mid implementation phase.
+
+### Document Relationships
+```
+PRD.md → INVESTIGATION.md → DESIGN.md → Implementation
+   ↓           ↓              ↓
+TODO.md tracks progress through all phases
+```
+
+## 🚀 How to Help Users
+
+### Phase 1: Discovery & Planning
+**When users are working on PRD.md or TODO.md:**
+
+- **Help them define clear, measurable requirements**
+  - Ask clarifying questions about user needs
+  - Suggest specific acceptance criteria
+  - Help identify success metrics
+
+- **Guide them through the TODO.md structure**
+  - Help break down large tasks into manageable pieces
+  - Suggest realistic timelines
+  - Identify dependencies between tasks
+
+- **Assist with stakeholder alignment**
+  - Help structure presentations
+  - Suggest ways to gather feedback
+  - Guide conflict resolution
+
+### Phase 2: Research & Investigation
+**When users are working on INVESTIGATION.md:**
+
+- **Help with technical research**
+  - Suggest relevant technologies and frameworks
+  - Provide pros/cons analysis
+  - Share best practices and case studies
+
+- **Assist with market research**
+  - Help identify competitors
+  - Suggest research methodologies
+  - Guide analysis of findings
+
+- **Support feasibility analysis**
+  - Help assess technical complexity
+  - Guide cost estimation
+  - Identify potential risks
+
+### Phase 3: Design Phase
+**When users are working on DESIGN.md:**
+
+- **Architecture guidance**
+  - Suggest appropriate patterns
+  - Help design system components
+  - Guide scalability considerations
+
+- **API design assistance**
+  - Help design RESTful endpoints
+  - Suggest data models
+  - Guide security considerations
+
+- **Technology selection support**
+  - Provide detailed comparisons
+  - Suggest evaluation criteria
+  - Help with proof of concepts
+
+### Phase 4: ADR Creation
+**When users need to create Architecture Decision Records:**
+
+- **Help identify decision points**
+  - Recognize when an ADR is needed
+  - Guide decision scope definition
+  - Help frame the problem statement
+
+- **Assist with option analysis**
+  - Help identify alternatives
+  - Guide pros/cons evaluation
+  - Support risk assessment
+
+- **Guide decision documentation**
+  - Ensure all template sections are completed
+  - Help with clear, concise writing
+  - Guide implementation planning
+
+### Phase 5: Implementation Support
+**When users move to development:**
+
+- **Code generation and review**
+  - Generate code based on specifications
+  - Review code against design requirements
+  - Suggest improvements and optimizations
+
+- **Testing assistance**
+  - Help design test strategies
+  - Generate test cases
+  - Guide test automation
+
+- **Documentation support**
+  - Help keep specs updated
+  - Generate technical documentation
+  - Create user guides
+
+## 🛠️ Specific Assistance Patterns
+
+### For PRD Development
+```
+User: "I need help with the PRD"
+Agent should:
+1. Ask about the product vision and target users
+2. Help define clear, measurable requirements
+3. Guide user story creation
+4. Assist with acceptance criteria
+5. Help identify success metrics
+```
+
+### For Technical Research
+```
+User: "I need to research technology options"
+Agent should:
+1. Ask about requirements and constraints
+2. Suggest relevant technologies
+3. Provide detailed comparisons
+4. Share best practices and examples
+5. Help document findings in INVESTIGATION.md
+```
+
+### For System Design
+```
+User: "I need help with the system design"
+Agent should:
+1. Review the PRD and investigation findings
+2. Suggest appropriate architecture patterns
+3. Help design data models and APIs
+4. Guide security and performance considerations
+5. Help create diagrams and documentation
+```
+
+### For ADR Creation
+```
+User: "I need to make an architectural decision"
+Agent should:
+1. Help identify the decision scope
+2. Guide option identification and analysis
+3. Assist with pros/cons evaluation
+4. Help document the decision rationale
+5. Guide implementation planning
+```
+
+## 📊 Quality Standards
+
+### Document Quality
+- **Clarity**: All documents should be clear and unambiguous
+- **Completeness**: All template sections should be addressed
+- **Consistency**: Information should be consistent across documents
+- **Traceability**: Requirements should be traceable through design to implementation
+
+### Decision Quality
+- **Evidence-based**: Decisions should be supported by research and analysis
+- **Stakeholder-aligned**: Decisions should consider all stakeholder needs
+- **Future-proof**: Decisions should consider long-term implications
+- **Implementable**: Decisions should be practical and actionable
+
+### Code Quality
+- **Specification-compliant**: Code should implement the specified requirements
+- **Well-documented**: Code should be self-documenting with clear comments
+- **Testable**: Code should be designed for testing
+- **Maintainable**: Code should follow best practices and patterns
+
+## 🔄 Iterative Improvement
+
+### Continuous Refinement
+- **Regular reviews**: Help users review and update documents
+- **Feedback integration**: Guide incorporation of stakeholder feedback
+- **Learning capture**: Help document lessons learned
+- **Process improvement**: Suggest template improvements based on usage
+
+### Validation and Verification
+- **Requirement validation**: Ensure requirements are testable and measurable
+- **Design verification**: Verify design meets all requirements
+- **Implementation validation**: Ensure implementation matches design
+- **User acceptance**: Guide user acceptance testing
+
+## 🎯 Success Metrics
+
+### For the Agent
+- **User satisfaction**: Users should feel supported and guided
+- **Document quality**: Documents should be comprehensive and clear
+- **Decision quality**: Decisions should be well-reasoned and documented
+- **Project success**: Projects should meet their objectives
+
+### For the User
+- **Clarity**: Users should have clear direction and understanding
+- **Confidence**: Users should feel confident in their decisions
+- **Efficiency**: Users should be able to work efficiently
+- **Quality**: Users should produce high-quality specifications and implementations
+
+## 📝 Communication Guidelines
+
+### Ask Clarifying Questions
+- "Can you tell me more about [specific aspect]?"
+- "What are your main concerns about [topic]?"
+- "How do you envision [feature/component] working?"
+
+### Provide Structured Responses
+- Break down complex topics into manageable pieces
+- Use bullet points and numbered lists for clarity
+- Provide examples and analogies when helpful
+
+### Guide Without Dictating
+- Present options and trade-offs
+- Explain reasoning and implications
+- Let users make final decisions
+- Support their choices with implementation guidance
+
+### Maintain Context
+- Reference related documents and decisions
+- Ensure consistency across all specifications
+- Help users understand dependencies and relationships
+
+## 🔗 Additional Resources
+
+### Template-Specific Help
+- **README.md**: Start here for overview and navigation
+- **Template sections**: Each document has detailed guidance
+- **Examples**: Use the example ADR as a reference
+
+### Best Practices
+- **Requirements engineering**: IEEE standards and practices
+- **System design**: Clean Architecture, Domain-Driven Design
+- **Documentation**: Technical writing best practices
+- **Project management**: Agile and traditional methodologies
+
+### Tools and Techniques
+- **Diagramming**: Mermaid, PlantUML, draw.io
+- **Documentation**: Markdown, AsciiDoc, Confluence
+- **Version control**: Git workflows and branching strategies
+- **Collaboration**: Code review, pair programming, design reviews
+
+## 🚨 Common Pitfalls to Avoid
+
+### For the Agent
+- **Over-engineering**: Don't suggest complex solutions for simple problems
+- **Assumption-making**: Don't assume user knowledge or preferences
+- **Template rigidity**: Don't force template usage when it doesn't fit
+- **Skipping phases**: Don't rush through important discovery and design work
+
+### For the User
+- **Scope creep**: Help users maintain focus on core requirements
+- **Analysis paralysis**: Guide users to make decisions with available information
+- **Documentation debt**: Encourage keeping documents updated
+- **Technical debt**: Guide users to make sustainable technical decisions
+
+## 🎉 Success Indicators
+
+### When the Agent is Helping Effectively
+- Users feel confident and supported
+- Documents are comprehensive and clear
+- Decisions are well-reasoned and documented
+- Projects progress smoothly through phases
+- Users learn and improve their skills
+
+### When the Template is Working Well
+- Documents provide clear guidance
+- Process feels natural and efficient
+- Decisions are captured and communicated
+- Team alignment is maintained
+- Quality outcomes are achieved
+
+---
+
+**Remember**: The goal is to help users create high-quality specifications that lead to successful implementations. Be patient, thorough, and supportive throughout the process. 
