@@ -14,11 +14,11 @@ This file provides guidance to coding agents on how to effectively assist users 
 
 ### Core Documents
 - **README.md**: Main index and navigation hub
-- **PRD.md**: Product Requirements Document - defines WHAT to build
-- **TODO.md**: Project tracking and phase management
-- **INVESTIGATION.md**: Research, analysis, and pre-work documentation
-- **DESIGN.md**: System design and architecture - defines HOW to build
-- **adr/**: Architecture Decision Records for key technical decisions to be made during design phase, but also possibly mid implementation phase.
+- **PRD.md**: Product Requirements Document - defines WHAT to build (template: `templates/PRD.md`)
+- **TODO.md**: Project tracking and phase management (template: `templates/TODO.md`)
+- **INVESTIGATION.md**: Research, analysis, and pre-work documentation (template: `templates/INVESTIGATION.md`)
+- **DESIGN.md**: System design and architecture - defines HOW to build (template: `templates/DESIGN.md`)
+- **adr/**: Architecture Decision Records for key technical decisions to be made during design phase, but also possibly mid implementation phase. (template: `templates/adr/0000-template.md`)
 
 ### Document Relationships
 ```
@@ -26,6 +26,36 @@ PRD.md → INVESTIGATION.md → DESIGN.md → Implementation
    ↓           ↓              ↓
 TODO.md tracks progress through all phases
 ```
+
+### Templates Folder
+All template files are located in the `templates/` folder:
+- **templates/PRD.md**: Complete Product Requirements Document template
+- **templates/TODO.md**: Project tracking template with phase management
+- **templates/INVESTIGATION.md**: Research and analysis template
+- **templates/DESIGN.md**: System design and architecture template
+- **templates/adr/0000-template.md**: Architecture Decision Record template
+- **templates/adr/0001-example-adr.md**: Example ADR for reference
+- **templates/README.md**: Project-specific README for users
+- **templates/.gitignore**: Comprehensive gitignore for projects
+
+**Usage**: Users can copy the entire `templates/` folder to start a new project, or reference individual template files as needed.
+
+## 🚀 How to Help Users
+
+### Template Access and Setup
+When users need to start a new project or access templates:
+- **Copy templates**: Guide users to copy the `templates/` folder to their project root
+- **Individual files**: Help users locate specific template files in `templates/` directory
+- **Template customization**: Assist users in adapting templates to their specific needs
+- **Project structure**: Help users understand how to organize their project using the templates
+
+### Next Steps Guidance
+When users ask "What's next?" or similar questions:
+- **Phase assessment**: Determine which phase they're currently in
+- **Template provision**: Offer to copy the next required template file
+- **Draft assistance**: Help create a first draft of the next document
+- **Process guidance**: Explain the next phase and its requirements
+- **Setup support**: Help establish the template structure in their project
 
 ## 🚀 How to Help Users
 
@@ -101,6 +131,12 @@ TODO.md tracks progress through all phases
   - Help with clear, concise writing
   - Guide implementation planning
 
+- **Template and setup assistance**
+  - Provide the ADR template from `templates/adr/0000-template.md`
+  - Reference the example ADR in `templates/adr/0001-example-adr.md`
+  - Help copy and customize the template for their specific decision
+  - Assist with initial content creation and structure
+
 ### Phase 5: Implementation Support
 **When users move to development:**
 
@@ -125,44 +161,85 @@ TODO.md tracks progress through all phases
 ```
 User: "I need help with the PRD"
 Agent should:
-1. Ask about the product vision and target users
-2. Help define clear, measurable requirements
-3. Guide user story creation
-4. Assist with acceptance criteria
-5. Help identify success metrics
+1. Direct users to templates/PRD.md for the complete template
+2. Ask about the product vision and target users
+3. Help define clear, measurable requirements
+4. Guide user story creation
+5. Assist with acceptance criteria
+6. Help identify success metrics
 ```
 
 ### For Technical Research
 ```
 User: "I need to research technology options"
 Agent should:
-1. Ask about requirements and constraints
-2. Suggest relevant technologies
-3. Provide detailed comparisons
-4. Share best practices and examples
-5. Help document findings in INVESTIGATION.md
+1. Direct users to templates/INVESTIGATION.md for the research template
+2. Ask about requirements and constraints
+3. Suggest relevant technologies
+4. Provide detailed comparisons
+5. Share best practices and examples
+6. Help document findings in INVESTIGATION.md
 ```
 
 ### For System Design
 ```
 User: "I need help with the system design"
 Agent should:
-1. Review the PRD and investigation findings
-2. Suggest appropriate architecture patterns
-3. Help design data models and APIs
-4. Guide security and performance considerations
-5. Help create diagrams and documentation
+1. Direct users to templates/DESIGN.md for the complete design template
+2. Review the PRD and investigation findings
+3. Suggest appropriate architecture patterns
+4. Help design data models and APIs
+5. Guide security and performance considerations
+6. Help create diagrams and documentation
 ```
 
 ### For ADR Creation
 ```
 User: "I need to make an architectural decision"
 Agent should:
-1. Help identify the decision scope
-2. Guide option identification and analysis
-3. Assist with pros/cons evaluation
-4. Help document the decision rationale
-5. Guide implementation planning
+1. Direct users to templates/adr/0000-template.md for the ADR template
+2. Reference templates/adr/0001-example-adr.md for an example
+3. Help identify the decision scope
+4. Guide option identification and analysis
+5. Assist with pros/cons evaluation
+6. Help document the decision rationale
+7. Guide implementation planning
+```
+
+### For Project Tracking
+```
+User: "I need help with project management"
+Agent should:
+1. Direct users to templates/TODO.md for the project tracking template
+2. Help break down the project into phases
+3. Assist with timeline planning
+4. Guide milestone identification
+5. Help track progress and blockers
+```
+
+### For "What's Next?" Questions
+```
+User: "What's next?" or "What should I do next?"
+Agent should:
+1. Assess the user's current phase and progress
+2. Identify the next logical step in the process
+3. Offer to copy the appropriate template file to their project
+4. Suggest creating a first draft of the next document
+5. Provide specific guidance for the next phase
+6. Help set up the template structure if needed
+```
+
+### For Starting New ADRs
+```
+User: "I need to start a new ADR" or "How do I create an ADR?"
+Agent should:
+1. Direct users to templates/adr/0000-template.md for the template
+2. Reference templates/adr/0001-example-adr.md for guidance
+3. Help identify the decision that needs to be documented
+4. Offer to copy the ADR template to their project
+5. Assist with filling out the initial sections (Context, Decision, Options)
+6. Guide them through the decision-making process
+7. Help structure the pros/cons analysis
 ```
 
 ## 📊 Quality Standards
