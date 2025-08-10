@@ -21,43 +21,43 @@ All templates are located in the `templates/` folder:
 ```
 templates/
 ├── README.md              # Main index with links to all components
-├── PRD.md                 # Product Requirements Document template
+├── REQUIREMENTS.md        # Requirements template
 ├── TODO.md                # Project tracking and milestones
 ├── INVESTIGATION.md       # Research and pre-work documentation
 ├── DESIGN.md              # System design and architecture
 ├── .agent                 # Agent guidance for consistent support
 ├── .gitignore             # Git ignore file for common files
-└── adr/                   # Architecture Decision Records
-    ├── 0000-template.md   # ADR template
-    └── 0001-example-adr.md # Example ADR
+└── decisions/             # Decisions
+    ├── 0000-template.md   # Decision template
+    └── 0001-example-decision.md # Example decision
 ```
 
 ## 📁 Table of Contents
 
 ### Core Documents
-- **[templates/PRD.md](templates/PRD.md)** - Product Requirements Document
+- **[templates/REQUIREMENTS.md](templates/REQUIREMENTS.md)** - Requirements
 - **[templates/TODO.md](templates/TODO.md)** - Project tracking and milestones
 - **[templates/DESIGN.md](templates/DESIGN.md)** - System design and architecture
 
 ### Research & Investigation
 - **[templates/INVESTIGATION.md](templates/INVESTIGATION.md)** - Research, analysis, and pre-work documentation
 
-### Architecture Decision Records
-- **[templates/adr/](templates/adr/)** - Architecture Decision Records directory
-  - **[templates/adr/0000-template.md](templates/adr/0000-template.md)** - ADR template
-  - **[templates/adr/0001-example-adr.md](templates/adr/0001-example-adr.md)** - Example ADR
+### Decisions
+- **[templates/decisions/](templates/decisions/)** - Decisions directory
+  - **[templates/decisions/0000-template.md](templates/decisions/0000-template.md)** - Decision template
+  - **[templates/decisions/0001-example-decision.md](templates/decisions/0001-example-decision.md)** - Example decision
 
 ### Cursor Rules
-- **[.cursor/rules/spec-template.md](.cursor/rules/spec-template.md)** - Cursor rules for spec template assistance
+- **[.cursor/rules/spec-process.mdc](.cursor/rules/spec-process.mdc)** - Cursor rules for spec template assistance
 
 ## 🎯 Getting Started
 
 1. **Copy the templates**: `cp -r templates/ your-project-name/`
 2. **Start with the TODO**: Review `TODO.md` to understand the project phases
-3. **Write the PRD**: Begin with `PRD.md` to define what you're building
+3. **Write the Requirements**: Begin with `REQUIREMENTS.md` to define what you're building
 4. **Conduct Research**: Use `INVESTIGATION.md` to document your research and analysis
 5. **Design the System**: Work through `DESIGN.md` to create your system design
-6. **Document Decisions**: Create ADRs in the `adr/` directory for key architectural decisions
+6. **Document Decisions**: Create decisions in the `decisions/` directory for key architectural choices
 
 ## 📝 Usage Guidelines
 
@@ -68,14 +68,14 @@ templates/
 - Technical architecture planning
 
 ### Workflow
-1. **Discovery Phase**: Fill out PRD and conduct initial research
+1. **Discovery Phase**: Fill out REQUIREMENTS and conduct initial research
 2. **Design Phase**: Create system design and document architectural decisions
 3. **Implementation Phase**: Build according to the design
 4. **Documentation Phase**: Update documentation based on implementation learnings
 
 ### Best Practices
 - Keep documents up to date as the project evolves
-- Create ADRs for all significant architectural decisions
+- Create decisions for all significant architectural choices
 - Use clear, concise language in all documents
 - Include diagrams and visual aids where helpful
 - Reference external resources and research in investigation docs
@@ -94,7 +94,7 @@ Feel free to customize the templates to fit your organization's needs:
 - Update branding and company information
 - Add or remove sections based on your requirements
 - Modify the workflow to match your development process
-- Adjust the ADR template to match your decision-making process
+- Adjust the decision template to match your decision-making process
 
 ### Adding New Templates
 To add new templates:
@@ -124,9 +124,8 @@ Consider sharing:
 - [ISO/IEC/IEEE 29148](https://www.iso.org/standard/45171.html)
 - [Agile Requirements Engineering](https://www.agilealliance.org/)
 
-### Architecture Decision Records
-- [ADR GitHub Repository](https://github.com/joelparkerhenderson/architecture_decision_record)
-- [ADR Best Practices](https://adr.github.io/)
+### Decisions
+ 
 
 ### System Design Resources
 - [System Design Primer](https://github.com/donnemartin/system-design-primer)

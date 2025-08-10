@@ -5,17 +5,17 @@ Welcome to your project specification workspace! This folder contains all the te
 ## 📋 Quick Navigation
 
 ### Core Documents
-- **[PRD.md](PRD.md)** - Product Requirements Document
+- **[REQUIREMENTS.md](REQUIREMENTS.md)** - Requirements
 - **[TODO.md](TODO.md)** - Project tracking and milestones
 - **[DESIGN.md](DESIGN.md)** - System design and architecture
 
 ### Research & Investigation
 - **[INVESTIGATION.md](INVESTIGATION.md)** - Research, analysis, and pre-work documentation
 
-### Architecture Decision Records
-- **[adr/](adr/)** - Architecture Decision Records directory
-  - **[adr/0000-template.md](adr/0000-template.md)** - ADR template
-  - **[adr/0001-example-adr.md](adr/0001-example-adr.md)** - Example ADR
+### Decisions
+- **[decisions/](decisions/)** - Decisions directory
+  - **[decisions/0000-template.md](decisions/0000-template.md)** - Decision template
+  - **[decisions/0001-example-decision.md](decisions/0001-example-decision.md)** - Example decision
 
 
 
@@ -24,8 +24,8 @@ Welcome to your project specification workspace! This folder contains all the te
 ### 1. Start with the TODO
 Review `TODO.md` to understand the project phases and what needs to be done.
 
-### 2. Write Your PRD
-Begin with `PRD.md` to define what you're building. This is your foundation document.
+### 2. Write Your Requirements
+Begin with `REQUIREMENTS.md` to define what you're building. This is your foundation document.
 
 ### 3. Conduct Research
 Use `INVESTIGATION.md` to document your research, analysis, and findings.
@@ -34,28 +34,28 @@ Use `INVESTIGATION.md` to document your research, analysis, and findings.
 Work through `DESIGN.md` to create your system architecture and technical specifications.
 
 ### 5. Document Decisions
-Create ADRs in the `adr/` directory for key architectural decisions.
+Create decisions in the `decisions/` directory for key architectural choices.
 
 ## 📁 File Structure
 
 ```
 .
 ├── README.md              # This file - main index
-├── PRD.md                 # Product Requirements Document
+├── REQUIREMENTS.md        # Requirements
 ├── TODO.md                # Project tracking and milestones
 ├── INVESTIGATION.md       # Research and pre-work documentation
 ├── DESIGN.md              # System design and architecture
 ├── .agent                 # Agent guidance for consistent support
 ├── .gitignore             # Git ignore file for common files
-└── adr/                   # Architecture Decision Records
-    ├── 0000-template.md   # ADR template
-    └── 0001-example-adr.md # Example ADR
+└── decisions/             # Decisions
+    ├── 0000-template.md   # Decision template
+    └── 0001-example-decision.md # Example decision
 ```
 
 ## 🎯 Workflow
 
 ### Phase 1: Discovery & Planning
-- Fill out the PRD to define your product
+- Fill out the REQUIREMENTS to define your product
 - Conduct initial research and document in INVESTIGATION.md
 - Update TODO.md with your project timeline
 
@@ -100,7 +100,7 @@ Feel free to customize these templates to fit your needs:
 - Update branding and company information
 - Add or remove sections based on your requirements
 - Modify the workflow to match your development process
-- Adjust the ADR template to match your decision-making process
+- Adjust the decision template to match your decision-making process
 
 ## 🤝 Getting Help
 
@@ -109,7 +109,7 @@ If you're working with Cursor, the template includes rules that provide intellig
 
 ### Template Usage
 - Start with the TODO to understand the process
-- Use the PRD to define your requirements
+- Use the REQUIREMENTS document to define your requirements
 - Conduct thorough research before designing
 - Document all important decisions
 - Keep everything up to date
@@ -117,7 +117,7 @@ If you're working with Cursor, the template includes rules that provide intellig
 ## 📚 Additional Resources
 
 - [Original Template Repository](https://github.com/your-username/spec-template)
-- [Architecture Decision Records Guide](https://adr.github.io/)
+ 
 - [System Design Best Practices](https://github.com/donnemartin/system-design-primer)
 
 ---

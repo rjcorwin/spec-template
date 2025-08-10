@@ -14,22 +14,22 @@ This file provides guidance to coding agents on how to effectively assist users 
 
 ### Core Documents
 - **README.md**: Main index and navigation hub
-- **PRD.md**: Product Requirements Document - defines WHAT to build (template: `templates/PRD.md`)
+- **REQUIREMENTS.md**: Requirements - defines WHAT to build (inspired by PRD) (template: `templates/REQUIREMENTS.md`)
 - **TODO.md**: Project tracking and phase management (template: `templates/TODO.md`)
 - **INVESTIGATION.md**: Research, analysis, and pre-work documentation (template: `templates/INVESTIGATION.md`)
 - **DESIGN.md**: System design and architecture - defines HOW to build (template: `templates/DESIGN.md`)
-- **adr/**: Architecture Decision Records for key technical decisions to be made during design phase, but also possibly mid implementation phase. (template: `templates/adr/0000-template.md`)
+- **decisions/**: Decisions for key technical choices to be made during design phase, and sometimes mid implementation. (template: `templates/decisions/0000-template.md`)
 
 ### Document Relationships
 ```
-PRD.md → INVESTIGATION.md → DESIGN.md → Implementation
-   ↓           ↓              ↓
+REQUIREMENTS.md → INVESTIGATION.md → DESIGN.md → Implementation
+   ↓                 ↓              ↓
 TODO.md tracks progress through all phases
 ```
 
 ### Templates Folder
 All template files are located in the `templates/` folder:
-- **templates/PRD.md**: Complete Product Requirements Document template
+- **templates/REQUIREMENTS.md**: Requirements template (inspired by PRD)
 - **templates/TODO.md**: Project tracking template with phase management
 - **templates/INVESTIGATION.md**: Research and analysis template
 - **templates/DESIGN.md**: System design and architecture template
@@ -60,7 +60,7 @@ When users ask "What's next?" or similar questions:
 ## 🚀 How to Help Users
 
 ### Phase 1: Discovery & Planning
-**When users are working on PRD.md or TODO.md:**
+**When users are working on REQUIREMENTS.md or TODO.md:**
 
 - **Help them define clear, measurable requirements**
   - Ask clarifying questions about user needs
@@ -114,9 +114,9 @@ When users ask "What's next?" or similar questions:
   - Help with proof of concepts
 
   -
-  - **Architectural decisions (ADRs) during design**
-    - Identify when an ADR is warranted (multiple viable options or significant trade-offs)
-    - Draft the ADR using `templates/adr/0000-template.md` and reference `templates/adr/0001-example-adr.md`
+  - **Architectural decisions during design**
+    - Identify when a decision is warranted (multiple viable options or significant trade-offs)
+    - Draft the decision using `templates/decisions/0000-template.md` and reference `templates/decisions/0001-example-decision.md`
     - Facilitate pros/cons, risks, and decision rationale
     - After a decision is made, update `DESIGN.md` and the relevant items in `TODO.md`
 
@@ -138,18 +138,18 @@ When users ask "What's next?" or similar questions:
   - Generate technical documentation
   - Create user guides
   
-  - **Architectural decisions (ADRs) during implementation**
+  - **Architectural decisions during implementation**
     - When unexpected design gaps arise during a TODO item, propose creating an ADR
     - Draft the decision document; user approves/decides
     - Update `DESIGN.md` and `TODO.md` to reflect the decision and any scope changes
 
 ## 🛠️ Specific Assistance Patterns
 
-### For PRD Development
+### For Requirements Development
 ```
-User: "I need help with the PRD"
+User: "I need help with the requirements"
 Agent should:
-1. Direct users to templates/PRD.md for the complete template
+1. Direct users to templates/REQUIREMENTS.md for the complete template
 2. Ask about the product vision and target users
 3. Help define clear, measurable requirements
 4. Guide user story creation
@@ -185,8 +185,8 @@ Agent should:
 ```
 User: "I need to make an architectural decision"
 Agent should:
-1. Direct users to templates/adr/0000-template.md for the ADR template
-2. Reference templates/adr/0001-example-adr.md for an example
+1. Direct users to templates/decisions/0000-template.md for the decision template
+2. Reference templates/decisions/0001-example-decision.md for an example
 3. Help identify the decision scope
 4. Guide option identification and analysis
 5. Assist with pros/cons evaluation
@@ -218,12 +218,12 @@ Agent should:
 6. Help set up the template structure if needed
 ```
 
-### For Starting a New ADR (during design or implementation)
+### For Starting a New Decision (during design or implementation)
 ```
 User: "I need to start a new ADR" or "How do I create an ADR?"
 Agent should:
-1. Direct users to templates/adr/0000-template.md for the template
-2. Reference templates/adr/0001-example-adr.md for guidance
+1. Direct users to templates/decisions/0000-template.md for the template
+2. Reference templates/decisions/0001-example-decision.md for guidance
 3. Help identify the decision that needs to be documented
 4. Offer to copy the ADR template to their project
 5. Assist with filling out the initial sections (Context, Decision, Options)
@@ -294,7 +294,7 @@ Agent should:
 ### Template-Specific Help
 - **README.md**: Start here for overview and navigation
 - **Template sections**: Each document has detailed guidance
-- **Examples**: Use the example ADR as a reference
+- **Examples**: Use the example decision as a reference
 
 ## 🚨 Common Pitfalls to Avoid
 

@@ -1,9 +1,9 @@
-# ADR-0000: Architecture Decision Record Template
+# Decision-0000: Decision Template
 
 ## 📋 Document Information
 
-- **ADR Number**: 0000
-- **Title**: Architecture Decision Record Template
+- **Decision Number**: 0000
+- **Title**: Decision Template
 - **Status**: Template
 - **Date**: [Date]
 - **Author**: [Author Name]
@@ -23,9 +23,9 @@
 [Provide additional context about the technical, business, or organizational factors that influence this decision.]
 
 ### Related Decisions
-- [Link to related ADR 1]
-- [Link to related ADR 2]
-- [Link to related ADR 3]
+- [Link to related decision 1]
+- [Link to related decision 2]
+- [Link to related decision 3]
 
 ## 🔍 Decision
 
@@ -227,7 +227,7 @@
 ## 🔄 Updates & Revisions
 
 ### Version History
-- **v1.0** - [Date]: Initial ADR created
+- **v1.0** - [Date]: Initial decision created
 - **v1.1** - [Date]: [Changes made]
 - **v1.2** - [Date]: [Changes made]
 
@@ -249,29 +249,29 @@
 
 ---
 
-## 📋 ADR Template Usage Guidelines
+## 📋 Decision Template Usage Guidelines
 
-### When to Create an ADR
+### When to Create a Decision
 - **Architectural Decisions**: Major technical decisions that affect system design
 - **Technology Choices**: Selection of frameworks, libraries, or tools
 - **Design Patterns**: Choice of architectural patterns or design approaches
 - **Infrastructure Decisions**: Deployment, hosting, or infrastructure choices
 - **Integration Decisions**: How systems or components will interact
 
-### ADR Naming Convention
-- **Format**: `ADR-XXXX: [Descriptive Title]`
+### Decision Naming Convention
+- **Format**: `Decision-XXXX: [Descriptive Title]`
 - **Numbering**: Sequential numbering starting from 0001
 - **Title**: Clear, concise description of the decision
 
-### ADR Status Values
+### Decision Status Values
 - **Proposed**: Initial draft, under review
 - **Accepted**: Decision approved and being implemented
 - **Implemented**: Decision has been implemented
 - **Deprecated**: Decision is no longer relevant
 - **Superseded**: Replaced by a newer decision
 
-### ADR Review Process
-1. **Draft**: Author creates initial ADR
+### Decision Review Process
+1. **Draft**: Author creates initial decision
 2. **Review**: Stakeholders review and provide feedback
 3. **Revision**: Author updates based on feedback
 4. **Approval**: Final approval from decision makers
@@ -285,4 +285,6 @@
 - **Consider Consequences**: Think about both positive and negative impacts
 - **Plan Implementation**: Include concrete steps for execution
 - **Set Review Dates**: Schedule regular reviews of the decision
-- **Keep Updated**: Revise ADRs as circumstances change 
+- **Keep Updated**: Revise decisions as circumstances change
+
+

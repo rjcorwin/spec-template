@@ -18,7 +18,7 @@
 **Timeline**: [Start Date] - [End Date]
 
 #### Tasks
-- [ ] **Write a PRD**
+- [ ] **Write REQUIREMENTS**
   - [ ] Define product vision and mission
   - [ ] Identify target audience and user personas
   - [ ] Document functional and non-functional requirements
@@ -34,12 +34,12 @@
   - [ ] Document findings in INVESTIGATION.md
 
 - [ ] **Stakeholder alignment**
-  - [ ] Present PRD to stakeholders
+- [ ] Present REQUIREMENTS to stakeholders
   - [ ] Gather feedback and iterate
   - [ ] Get final approval to proceed
 
 #### Deliverables
-- [ ] Completed PRD.md
+- [ ] Completed REQUIREMENTS.md
 - [ ] Initial INVESTIGATION.md with research findings
 - [ ] Stakeholder approval
 
@@ -58,13 +58,13 @@
   - [ ] Create system diagrams and flowcharts
   - [ ] Document design decisions in DESIGN.md
 
-- [ ] **Architecture Decision Records (ADRs)**
+- [ ] **Decisions**
   - [ ] Identify key architectural decisions needed
-  - [ ] Create ADR for technology stack selection
-  - [ ] Create ADR for database design
-  - [ ] Create ADR for API design patterns
-  - [ ] Create ADR for security architecture
-  - [ ] Create ADR for deployment strategy
+  - [ ] Create decision for technology stack selection
+  - [ ] Create decision for database design
+  - [ ] Create decision for API design patterns
+  - [ ] Create decision for security architecture
+  - [ ] Create decision for deployment strategy
 
 - [ ] **Technical planning**
   - [ ] Define development environment setup
@@ -74,7 +74,7 @@
 
 #### Deliverables
 - [ ] Completed DESIGN.md
-- [ ] All required ADRs in adr/ directory
+- [ ] All required decisions in decisions/ directory
 - [ ] Technical architecture diagrams
 - [ ] UI/UX wireframes and mockups
 
@@ -144,7 +144,7 @@
   - [ ] Incident response procedures
 
 - [ ] **Update project documentation**
-  - [ ] Update PRD with final requirements
+- [ ] Update REQUIREMENTS with final requirements
   - [ ] Update DESIGN.md with implementation details
   - [ ] Update INVESTIGATION.md with lessons learned
   - [ ] Create final project summary
@@ -196,7 +196,7 @@
 - **Launch**: [0%] ⏳
 
 ### Key Milestones
-- [ ] **Milestone 1**: PRD Complete - [Target Date]
+- [ ] **Milestone 1**: REQUIREMENTS Complete - [Target Date]
 - [ ] **Milestone 2**: Design Complete - [Target Date]
 - [ ] **Milestone 3**: MVP Complete - [Target Date]
 - [ ] **Milestone 4**: Documentation Complete - [Target Date]

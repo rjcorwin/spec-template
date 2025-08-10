@@ -351,13 +351,11 @@ DELETE /api/projects/{id}     # Delete project
 
 ## 📚 Related Documents
 
-### Architecture Decision Records
-- [ADR-0001: Technology Stack Selection](adr/0001-technology-stack.md)
-- [ADR-0002: Database Design](adr/0002-database-design.md)
-- [ADR-0003: API Design Patterns](adr/0003-api-design.md)
+### Decisions
+- [Decision-0001: Technology Stack Selection](decisions/0001-example-decision.md)
 
 ### External References
-- [Product Requirements Document](PRD.md)
+- [Requirements](REQUIREMENTS.md)
 - [Investigation Document](INVESTIGATION.md)
 - [Project TODO](TODO.md)
 

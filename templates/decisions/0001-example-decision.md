@@ -1,8 +1,8 @@
-# ADR-0001: Technology Stack Selection for Web Application
+# Decision-0001: Technology Stack Selection for Web Application
 
 ## 📋 Document Information
 
-- **ADR Number**: 0001
+- **Decision Number**: 0001
 - **Title**: Technology Stack Selection for Web Application
 - **Status**: Accepted
 - **Date**: 2024-01-15
@@ -234,7 +234,7 @@ The React + Node.js stack was chosen primarily because it leverages our team's e
 - [Database Schema](database-schema.md)
 
 ### Business Documentation
-- [Product Requirements Document](PRD.md)
+- [Requirements](../REQUIREMENTS.md)
 - [Project Plan](TODO.md)
 - [Risk Assessment](risk-assessment.md)
 
@@ -267,7 +267,7 @@ The React + Node.js stack was chosen primarily because it leverages our team's e
 ## 🔄 Updates & Revisions
 
 ### Version History
-- **v1.0** - 2024-01-15: Initial ADR created and approved
+- **v1.0** - 2024-01-15: Initial decision created and approved
 
 ### Review History
 - **2024-01-15**: Development Team - Approved unanimously
@@ -284,4 +284,6 @@ The React + Node.js stack was chosen primarily because it leverages our team's e
 - **Development Team**: All members - 2024-01-15 - "Excited to work with familiar technologies"
 - **Product Manager**: Sarah Johnson - 2024-01-15 - "Supports rapid development timeline"
 - **DevOps Engineer**: Mike Chen - 2024-01-15 - "Good ecosystem for deployment and monitoring"
-- **Security Team**: Lisa Wang - 2024-01-15 - "Approved with additional security monitoring requirements" 
+- **Security Team**: Lisa Wang - 2024-01-15 - "Approved with additional security monitoring requirements"
+
+

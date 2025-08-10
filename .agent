@@ -8,7 +8,7 @@ This file provides guidance to coding agents on how to effectively assist users 
 
 ### Core Documents
 - **README.md**: Main index and navigation hub
-- **PRD.md**: Product Requirements Document - defines WHAT to build
+- **REQUIREMENTS.md**: Requirements - defines WHAT to build (inspired by PRD)
 - **TODO.md**: Project tracking and phase management
 - **INVESTIGATION.md**: Research, analysis, and pre-work documentation
 - **DESIGN.md**: System design and architecture - defines HOW to build
@@ -24,7 +24,7 @@ TODO.md tracks progress through all phases
 ## 🚀 How to Help Users
 
 ### Phase 1: Discovery & Planning
-**When users are working on PRD.md or TODO.md:**
+**When users are working on REQUIREMENTS.md or TODO.md:**
 
 - **Help them define clear, measurable requirements**
   - Ask clarifying questions about user needs
@@ -115,9 +115,9 @@ TODO.md tracks progress through all phases
 
 ## 🛠️ Specific Assistance Patterns
 
-### For PRD Development
+### For Requirements Development
 ```
-User: "I need help with the PRD"
+User: "I need help with the requirements"
 Agent should:
 1. Ask about the product vision and target users
 2. Help define clear, measurable requirements
