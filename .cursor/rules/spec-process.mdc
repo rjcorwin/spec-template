@@ -113,31 +113,14 @@ When users ask "What's next?" or similar questions:
   - Suggest evaluation criteria
   - Help with proof of concepts
 
-### Phase 4: ADR Creation
-**When users need to create Architecture Decision Records:**
+  -
+  - **Architectural decisions (ADRs) during design**
+    - Identify when an ADR is warranted (multiple viable options or significant trade-offs)
+    - Draft the ADR using `templates/adr/0000-template.md` and reference `templates/adr/0001-example-adr.md`
+    - Facilitate pros/cons, risks, and decision rationale
+    - After a decision is made, update `DESIGN.md` and the relevant items in `TODO.md`
 
-- **Help identify decision points**
-  - Recognize when an ADR is needed
-  - Guide decision scope definition
-  - Help frame the problem statement
-
-- **Assist with option analysis**
-  - Help identify alternatives
-  - Guide pros/cons evaluation
-  - Support risk assessment
-
-- **Guide decision documentation**
-  - Ensure all template sections are completed
-  - Help with clear, concise writing
-  - Guide implementation planning
-
-- **Template and setup assistance**
-  - Provide the ADR template from `templates/adr/0000-template.md`
-  - Reference the example ADR in `templates/adr/0001-example-adr.md`
-  - Help copy and customize the template for their specific decision
-  - Assist with initial content creation and structure
-
-### Phase 5: Implementation Support
+### Phase 4: Implementation Support
 **When users move to development:**
 
 - **Code generation and review**
@@ -154,6 +137,11 @@ When users ask "What's next?" or similar questions:
   - Help keep specs updated
   - Generate technical documentation
   - Create user guides
+  
+  - **Architectural decisions (ADRs) during implementation**
+    - When unexpected design gaps arise during a TODO item, propose creating an ADR
+    - Draft the decision document; user approves/decides
+    - Update `DESIGN.md` and `TODO.md` to reflect the decision and any scope changes
 
 ## 🛠️ Specific Assistance Patterns
 
@@ -193,7 +181,7 @@ Agent should:
 6. Help create diagrams and documentation
 ```
 
-### For ADR Creation
+### For Architectural Decisions (Design or Implementation)
 ```
 User: "I need to make an architectural decision"
 Agent should:
@@ -204,6 +192,7 @@ Agent should:
 5. Assist with pros/cons evaluation
 6. Help document the decision rationale
 7. Guide implementation planning
+8. After the decision is made, update DESIGN.md and the relevant items in TODO.md
 ```
 
 ### For Project Tracking
@@ -229,7 +218,7 @@ Agent should:
 6. Help set up the template structure if needed
 ```
 
-### For Starting New ADRs
+### For Starting a New ADR (during design or implementation)
 ```
 User: "I need to start a new ADR" or "How do I create an ADR?"
 Agent should:
@@ -240,6 +229,7 @@ Agent should:
 5. Assist with filling out the initial sections (Context, Decision, Options)
 6. Guide them through the decision-making process
 7. Help structure the pros/cons analysis
+8. After the decision is made, update DESIGN.md and the relevant items in TODO.md
 ```
 
 ## 📊 Quality Standards
@@ -325,12 +315,6 @@ Agent should:
 - **System design**: Clean Architecture, Domain-Driven Design
 - **Documentation**: Technical writing best practices
 - **Project management**: Agile and traditional methodologies
-
-### Tools and Techniques
-- **Diagramming**: Mermaid, PlantUML, draw.io
-- **Documentation**: Markdown, AsciiDoc, Confluence
-- **Version control**: Git workflows and branching strategies
-- **Collaboration**: Code review, pair programming, design reviews
 
 ## 🚨 Common Pitfalls to Avoid
 
