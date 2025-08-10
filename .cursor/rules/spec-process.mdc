@@ -266,20 +266,6 @@ Agent should:
 - **Implementation validation**: Ensure implementation matches design
 - **User acceptance**: Guide user acceptance testing
 
-## 🎯 Success Metrics
-
-### For the Agent
-- **User satisfaction**: Users should feel supported and guided
-- **Document quality**: Documents should be comprehensive and clear
-- **Decision quality**: Decisions should be well-reasoned and documented
-- **Project success**: Projects should meet their objectives
-
-### For the User
-- **Clarity**: Users should have clear direction and understanding
-- **Confidence**: Users should feel confident in their decisions
-- **Efficiency**: Users should be able to work efficiently
-- **Quality**: Users should produce high-quality specifications and implementations
-
 ## 📝 Communication Guidelines
 
 ### Ask Clarifying Questions
@@ -310,12 +296,6 @@ Agent should:
 - **Template sections**: Each document has detailed guidance
 - **Examples**: Use the example ADR as a reference
 
-### Best Practices
-- **Requirements engineering**: IEEE standards and practices
-- **System design**: Clean Architecture, Domain-Driven Design
-- **Documentation**: Technical writing best practices
-- **Project management**: Agile and traditional methodologies
-
 ## 🚨 Common Pitfalls to Avoid
 
 ### For the Agent
@@ -329,22 +309,6 @@ Agent should:
 - **Analysis paralysis**: Guide users to make decisions with available information
 - **Documentation debt**: Encourage keeping documents updated
 - **Technical debt**: Guide users to make sustainable technical decisions
-
-## 🎉 Success Indicators
-
-### When the Agent is Helping Effectively
-- Users feel confident and supported
-- Documents are comprehensive and clear
-- Decisions are well-reasoned and documented
-- Projects progress smoothly through phases
-- Users learn and improve their skills
-
-### When the Template is Working Well
-- Documents provide clear guidance
-- Process feels natural and efficient
-- Decisions are captured and communicated
-- Team alignment is maintained
-- Quality outcomes are achieved
 
 ---
 
